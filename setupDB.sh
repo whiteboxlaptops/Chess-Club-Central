@@ -28,3 +28,5 @@ CREATE TABLE `games` (
   KEY `white_id`(`white_id`)
 );
 '
+
+/run.sh
