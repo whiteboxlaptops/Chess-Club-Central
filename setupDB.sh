@@ -1,5 +1,7 @@
 #!/bin/bash
 
+/run.sh
+
 mysql -e '
 create database chess;
 use chess
@@ -29,4 +31,3 @@ CREATE TABLE `games` (
 );
 '
 
-/run.sh
