@@ -4,6 +4,8 @@ I just made it work again.
 
 
 After the container is created and running, you will need to run the following command before it will work:
+
+
   mysql -e '
   create database chess;
   use chess
