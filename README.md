@@ -1,9 +1,10 @@
-I DID NOT CREATE THIS!
-I just made it work again.
-
-
+I DID NOT CREATE THIS!\
+I just made it work again.\
+\
+\
 docker run -d \\\
-  -p 80:80 \\\
-  -p 3306:3306 \\\
-  --name chess-container \\\
+&nbsp;&nbsp;-p 80:80 \\\
+&nbsp;&nbsp;-p 3306:3306 \\\
+&nbsp;&nbsp;--name chess-container \\\
+&nbsp;&nbsp;-v "path/to/local/storage":/var/lib/mysql \\\
 chess-club
