@@ -7,4 +7,4 @@ docker run -d \\\
 &nbsp;&nbsp;-p 3306:3306 \\\
 &nbsp;&nbsp;--name chess-container \\\
 &nbsp;&nbsp;-v "path/to/local/storage":/var/lib/mysql \\\
-fletcher27/chess-club-central:latest
+fletcher27/chess-club-central:1.0
